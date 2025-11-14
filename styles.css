@@ -105,7 +105,7 @@ p {
     white-space: nowrap;
     letter-spacing: 0.1em;
     color: rgb(0, 0, 0);
-width: auto;
+    width: auto;
 }
 
 .scroll-indicator {
@@ -134,16 +134,10 @@ width: auto;
 }
 
 .about-grid {
-    display: grid;
+    display: center;
     grid-template-columns: 1fr;
     gap: 4rem;
     align-items: center;
-}
-
-@media (min-width: 768px) {
-    .about-grid {
-        grid-template-columns: 1fr 1fr;
-    }
 }
 
 .about-content {
@@ -161,10 +155,11 @@ width: auto;
     height: 1px;
     background-color: #1c1917;
     margin-bottom: 1.5rem;
-}
+    margin: auto;
 
 .about-text {
     color: #57534e;
+    font-size: 18px;
 }
 
 .about-image-wrapper {
@@ -539,24 +534,3 @@ width: auto;
     0%, 100% { opacity: 1; }
     50% { opacity: 0.5; }
     }
-
-@keyframes focus-in-contract {
-  0% {
-    letter-spacing: 1em;
-    filter: blur(12px);
-    opacity: 0;
-  }
-  100% {
-    filter: blur(0px);
-    opacity: 1;
-  }
-}
-
-@keyframes text-shadow-drop-center {
-  0% {
-    text-shadow: 0 0 0 rgba(0, 0, 0, 1);
-  }
-  100% {
-    text-shadow: 0 0 18px rgba(0, 0, 0, 0.7);
-  }
-}
