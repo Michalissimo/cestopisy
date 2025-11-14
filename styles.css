@@ -123,8 +123,8 @@ p {
     animation: pulse 2s infinite;
 }
 
-/* Sekce O mně */
-.about {
+/* Sekce Část 1 */
+.text {
     padding: 8rem 1.5rem;
 }
 
@@ -133,7 +133,7 @@ p {
     margin: 0 auto;
 }
 
-.about-grid {
+.text {
     display: center;
     grid-template-columns: 1fr;
     gap: 4rem;
@@ -151,11 +151,12 @@ p {
 }
 
 .title-line {
-    width: 5rem;
+    width: 7rem;
     height: 1px;
     background-color: #1c1917;
-    margin-bottom: 1.5rem;
     margin: auto;
+    margin-bottom: 3rem;
+}
 
 .about-text {
     color: #57534e;
