@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iČajovna</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">iČajovna (電子茶館)</a>
+            <button class="nav-toggle" onclick="toggleMenu()" aria-label="Toggle menu">
+                <span class="nav-toggle-line"></span>
+                <span class="nav-toggle-line"></span>
+                <span class="nav-toggle-line"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#Ocajovne" class="nav-link">O čajovně</a></li>
+                <li><a href="#filozofie" class="nav-link">Filozofie</a></li>
+                <li><a href="#galerie" class="nav-link">Galerie</a></li>
+                <li><a href="#kontakt" class="nav-link">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg">
+            <img src="https://images.unsplash.com/photo-1739868352011-18b6c26614d7?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cajovna">
+            <div class="hero-gradient"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-divider-top"></div>
+            <h1>電子茶館</h1>
+            <p class="hero-subtitle">Digitální čajovna</p>
+            <p>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div> 
+        </div>
+    </section>
+
+    <!-- Sekce O mně -->
+    <section class="about" id="Ocajovne">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <div class="section-title">
+                        <div class="title-line"></div>
+                        <h2>O čajovně</h2>
+                    </div>
+                    
+                    <p class="about-text">
+                        Digitální čajovna je prostor pro tvorbu.
+                        Jakoukoli.
+                        Digitální, Javascriptovou i třeba čajovou.
+                    </p>
+                    
+                    <p class="about-text">
+
+                        Tvorba léčí tělo i duši člověka.
+                    </p>
+                </div>
+                
+                <div class="about-image-wrapper">
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/flagged/photo-1562599838-8cc871c241a5?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Fotografie">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekce Filozofie -->
+    <section class="philosophy" id="filozofie">
+        <div class="philosophy-container">
+            <div class="title-line" style="margin-left: auto; margin-right: auto;"></div>
+            <h2>Filozofie</h2>
+            
+            <div class="philosophy-grid">
+                <div class="philosophy-item">
+                    <div class="philosophy-icon">手</div>
+                    <h3>Ruční práce</h3>
+                    <p class="about-text">
+                        Každý kus je ručně tvarován,
+                        čímž zachovává lidský dotek v automatizovaném světe.
+                    </p>
+                </div>
+                
+                <div class="philosophy-item">
+                    <div class="philosophy-icon">心</div>
+                    <h3>Srdce</h3>
+                    <p class="about-text">
+                        Každý výtvor v sobě nese záměr a pozoronost.
+                        Spojuje tak tvůrce s uživatelem, pomocí společného rituálu.
+                    </p>
+                </div>
+                
+                <div class="philosophy-item">
+                    <div class="philosophy-icon">時</div>
+                    <h3>Čas</h3>
+                    <p class="about-text">
+                        Skutečné umění nelze uspěchat.
+                        Každý kus dospívá skrze trpělivost k procesu.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekce Galerie -->
+    <section class="gallery" id="galerie">
+        <div class="container">
+            <div class="gallery-header">
+                <div class="title-line" style="margin-left: auto; margin-right: auto;"></div>
+                <h2>Galerie</h2>
+                <p class="gallery-description">
+                    Výběr z mé nedávné práce, každý kus je unikátní svým charakterem a formou.
+                </p>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="https://images.unsplash.com/photo-1548323164-ea1cb76539e8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687"
+                        alt="Ranní rituál">
+                    </div>
+                    <h3>Ranní rituální konvička</h3>
+                    <p>Hlína z přehrady, 120ml</p>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="https://images.unsplash.com/photo-1628155423287-d626144b91c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWElMjBjZXJlbW9ueSUyMEFzaWFufGVufDF8fHx8MTc2Mjg1ODExN3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" alt="Set pro ceremonii">
+                    </div>
+                    <h3>Set pro čajovou ceremonii</h3>
+                    <p>Připravený pro konzumaci s přáteli</p>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="https://images.unsplash.com/photo-1647504277331-608dcd69d7b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5aXhpbmclMjB0ZWFwb3QlMjBwb3R0ZXJ5fGVufDF8fHx8MTc2Mjg1ODExNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" alt="Traditional Teapot">
+                    </div>
+                    <h3> Tradiční konvička </h3>
+                    <p> S kapacitou 250ml </p>
+                </div>
+            </div>
+        </div>
+
+    <!-- Tlačítko-->
+        <div class="button">
+            <button type="button">Čajové tlačítko</button>
+        </div>
+
+    </section>
+
+    <!-- Kontakt -->
+    <section class="contact" id="kontakt">
+        <div class="contact-container">
+            <div class="center-line"></div>
+            <h2> Kontakt </h2>
+            
+            <p class="contact-description">
+                Každý kus je vyráběn na zakázku. Pro objednávky, dotazy nebo projednání výroby mě prosím kontaktujte. 
+            </p>
+            
+            <div>
+                <a href="mailto:cajovna" class="contact-email">
+                    <svg class="email-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                    <span>EMAIL</span>
+                    <svg class="email-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                </a>
+                
+                <div class="contact-divider">
+        </div>
+        
+        <div class="footer">
+            <div class="footer-line"></div>
+            <p class="footer-text"> 
+                iCajovna © • Vyrobeno se záměrem tvořit <br> <span id="current-time"></span>
+            </p>
+        </div>
+    </section>
+
+    <script>
+    document.getElementById('current-time').textContent = new Date().getFullYear();
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
