@@ -562,18 +562,3 @@ p {
     background-color: red;
 }
 
-{
-         <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-<script>
-    new Splide( '#gallery', {
-        type: 'loop',
-        perPage: 2,
-        gap: '10px',
-        autoplay: true,
-        interval: 3000,
-        pauseOnHover: true,
-        arrows: true,
-        pagination: false,
-    }).mount();
-</script>
-}
