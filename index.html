@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Článek - Thajsko</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"> <!-- Galerie -->
-
 </head>
+
 <body>
+
     <!-- Navigation Menu -->
     <nav class="nav">
         <div class="nav-container">
@@ -17,19 +17,38 @@
     </nav>
 
     <!-- Galerie -->
-     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-<script>
-    new Splide( '#gallery', {
-        type: 'loop',
-        perPage: 2,
-        gap: '10px',
-        autoplay: true,
-        interval: 3000,
-        pauseOnHover: true,
-        arrows: true,
-        pagination: false,
-    }).mount();
-</script>
+    <!-- Splide CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+
+    <style>
+        /* Aby obrázky nebyly roztahané */
+        .splide__slide img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Splide JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+    <script>
+        document.addEventListener( 'DOMContentLoaded', function () {
+            new Splide( '#gallery', {
+                type: 'loop',
+                perPage: 2,
+                gap: '10px',
+                autoplay: true,
+                interval: 3000,
+                pauseOnHover: true,
+                arrows: true,
+                pagination: false,
+            }).mount();
+        });
+    </script>
+    <!-- End of Galerie -->
 
     <!-- Hero Section -->
     <section class="hero">
@@ -92,25 +111,25 @@
                         Už není cesty zpět, zapínám pás, nadechuji se, nasazuji sluchátka… vidím svou oblíbenou hudbu, cítím její barvy… s tím jak letadlo nabírá výšku, já nabírám vnitřní klid.
                         <b> FOTOGRAFIE </b>
 
-<div id="gallery" class="splide">
-    <div class="splide__track">
-        <ul class="splide__list">
+    <div id="gallery" class="splide">
+        <div class="splide__track">
+            <ul class="splide__list">
 
-            <li class="splide__slide">
-                <img src="https://raw.githubusercontent.com/Michalissimo/cestopisy/main/static/uvodni.jpg" alt="Nahoře nad oblaky">
-            </li>
+                <li class="splide__slide">
+                    <img src="https://mikoversum.cz/wp-content/uploads/2025/09/prilet-1024x577.jpg" alt="">
+                </li>
 
-            <li class="splide__slide">
-                <img src="https://https://raw.githubusercontent.com/Michalissimo/cestopisy/main/static/uvodni.jpg" alt="Bangkok z letadla">
-            </li>
+                <li class="splide__slide">
+                    <img src="https://mikoversum.cz/wp-content/uploads/2025/09/bkk-1024x577.jpg" alt="">
+                </li>
 
-            <li class="splide__slide">
-                <img src="https://raw.githubusercontent.com/Michalissimo/cestopisy/main/static/uvodni.jpg" alt="Boarding">
-            </li>
+                <li class="splide__slide">
+                    <img src="https://mikoversum.cz/wp-content/uploads/2025/09/letiste-1-1024x576.jpg" alt="">
+                </li>
 
-        </ul>
+            </ul>
+        </div>
     </div>
-</div>
 
 
                         <br><br>
