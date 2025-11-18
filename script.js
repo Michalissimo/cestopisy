@@ -66,3 +66,12 @@ window.addEventListener("load", () => {
     }
   });
 });
+
+// Splide galerie
+document.querySelectorAll('.gallery').forEach(gal => {
+    new Splide(gal, {
+        type: 'loop',
+        perPage: 2,
+        gap: '10px',
+    }).mount();
+});

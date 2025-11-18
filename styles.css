@@ -505,10 +505,6 @@ p {
     50% { opacity: 0.5; }
     }
 
-
-
-
-
     /* Obalovací div pro tlačítko */
 .button {
   display: flex;
@@ -516,7 +512,7 @@ p {
   margin-top: 6rem ;        /* mezera nad tlačítkem */
 }
 
-/* Styl samotného tlačítka */
+    /* Styl samotného tlačítka */
 .button button {
   background-color: #5b4646;
   color: #fff;
@@ -530,7 +526,7 @@ p {
   box-shadow: -7px 8px 8px rgba(0,0,0,0.2);
 }
 
-/* Efekt při najetí myší */
+    /* Efekt při najetí myší */
 .button button:hover {
   background-color: #8A5A44;
   transform: translateY(-2px);
@@ -554,11 +550,16 @@ p {
     background-color: yellow;
 }
 
-#tt {
-    background-color: blue;
+/* ============== Galerie Splide ============== */
+/* Vzhled obrázků */
+.splide__slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
-#ttt {
-    background-color: red;
+/* Volitelně: odsazení galerie */
+#gallery {
+    margin: 20px auto;
+    max-width: 1000px;
 }
-

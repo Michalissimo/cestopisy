@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Článek - Thajsko</title>
     <link rel="stylesheet" href="styles.css">
+        <!-- Splide CSS z CDN (Galerie) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 </head>
 
 <body>
@@ -14,38 +17,6 @@
             <a href="#" class="nav-logo"></a>
         </div>
     </nav>
-
-    <!-- Galerie -->
-    <!-- Splide CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
-
-    <style>
-        .splide__slide img {
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
-    </style>
-</head>
-
-    <!-- Splide JS -->
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-
-    <script>
-        document.addEventListener( 'DOMContentLoaded', function () {
-            new Splide( '#gallery', {
-                type: 'loop',
-                perPage: 2,
-                gap: '10px',
-                autoplay: true,
-                interval: 3000,
-                pauseOnHover: true,
-                arrows: true,
-                pagination: false,
-            }).mount();
-        });
-    </script>
-<!-- End of Galerie -->
 
     <!-- Hero Section -->
     <section class="hero">
@@ -108,7 +79,7 @@
                         Už není cesty zpět, zapínám pás, nadechuji se, nasazuji sluchátka… vidím svou oblíbenou hudbu, cítím její barvy… s tím jak letadlo nabírá výšku, já nabírám vnitřní klid.
 
 <!-- Galerie -->
-    <div id="gallery" class="splide">
+    <div class="gallery splide">
         <div class="splide__track">
             <ul class="splide__list">
 
@@ -146,7 +117,7 @@
                         Vystupuji z vlaku a dostávám facku od teplého, vlhkého vzduchu, pot mi stéká po tváři už při prvních krocích, „takto tu mají po celý rok? To mě podrž…,“ pomyslím si. Z nádraží si prohlížím vysoké budovy a moderní část města, z nadšení posílám sestře fotografie, ve snaze předat to, co mám před očima. Připadám si jak v New Yorku – ve kterém jsem nikdy nebyl. Dýchám horký vzduch, nespal jsem ani minutku a přesto cítím proud energie… kráčím směrem ven. Nebem prostupuje elektřina, na zem dopadají lijány vody, „bylo by lepší mít plavky už v letadle,“ směju se… A Bangkok mě vítá tropickou bouří.
                         <br><br>
 <!-- Galerie -->
-    <div id="gallery" class="splide">
+    <div class="gallery splide">
         <div class="splide__track">
             <ul class="splide__list">
 
@@ -170,7 +141,7 @@
                         Po rozčarování si uvědomuji, že potřebuji odvoz do hotelu. Na mapě to vypadalo jako směšný kousek, nicméně je to hodina pěšky „nevadí, kilometry chodím pořád, zkusím to..,“. Po deseti minutách s chodidly ve vodě, po prvním uklouznutí uprostřed města si uvědomuji, že bez chodníků a s mými děravými boskami (které tak výborně odvádějí vodu) to nebude taková legrace.
                         <br><br>
 <!-- Galerie -->
-    <div id="gallery" class="splide">
+    <div class="gallery splide">
         <div class="splide__track">
             <ul class="splide__list">
 
@@ -203,7 +174,7 @@
                         Při první návštěvě toalety mě ihned překvapí, že nemají toaletní papíry, nýbrž tzv. Bumgun – u nás je to bidet. Po pár dnech si zvykám a říkám si, že je to ve výsledku i lepší varianta, nežli vyhazovat papír do potrubí, kdy následně vodu složitě čistíme. Další výhoda Bumgunu? Střílet komáry, kteří se na Vás snaží během potřeby útočit!
                         <br><br>
 <!-- Galerie -->
-    <div id="gallery" class="splide">
+    <div class="gallery splide">
         <div class="splide__track">
             <ul class="splide__list">
 
@@ -232,7 +203,7 @@
                         Objevuji chrámy, parky, dopřávám si masáže a zkouším místní jídlo. Jednou po večeři si vesele kráčím na Khao San Road, když něco cítím na pravé noze, vedle které něco leží. V první chvíli myslím, že jsou to odpadky neboť to splývá s cestou.. potom mi však poskočí srdce a s ním i obě nohy na druhou stranu „dopr…!!“ uvědomuji si dech varana, který se dotknul mého kotníku, protože jsem na něj málem šlápnul.
                         <br><br>
 <!-- Galerie -->
-    <div id="gallery" class="splide">
+    <div class="gallery splide">
         <div class="splide__track">
             <ul class="splide__list">
 
@@ -248,7 +219,7 @@
                         Elektroinstalace je další příběh… myslím, že v zemích třetího světa bych rád dělal elektrikáře, už jen kvůli tomu, že hlavním cílem bude hlavně funkčnost a nikoli estetika.
                         <br><br>
 <!-- Galerie -->
-    <div id="gallery" class="splide">
+    <div class="gallery splide">
         <div class="splide__track">
             <ul class="splide__list">
 
@@ -271,7 +242,7 @@
                         Z míst, které jsem navštívil mohu za sebe doporučit nádherný Grand Palace, Wat Phra Kaeo, Wat Arun Ratchawararam, Wat Phra Chetuphon Wimon – ve kterém doporučuji vyzkoušet masáže v Medical School of Massage (jedná se o školu tradiční Thajské medicíny, která se nachází uvnitř chrámu a musím uznat, že to z celého Thajska byla ta nejintenzivnější masáž) – jak sami říkají „kde se moudrost léčení nejen učí, ale je vytesána do kamene pro další generace„.
                         <br><br>
 <!-- Galerie -->
-    <div id="gallery" class="splide">
+    <div class="gallery splide">
         <div class="splide__track">
             <ul class="splide__list">
 
@@ -294,7 +265,7 @@
                         Dále je zde spousta dalších míst, která stojí za vidění.
                         <br><br>
 <!-- Galerie -->
-    <div id="gallery" class="splide">
+    <div class="gallery splide">
         <div class="splide__track">
             <ul class="splide__list">
 
@@ -333,7 +304,7 @@
                         Jelikož jsem součástí přírody, rozplýval jsem se nad místní flórou a faunou snad každý den. To, co doma poznávám pouze v botanických zahradách, zde tropické pásmo pomáhá vytvářet po celý rok a tedy není obtížné i uprostřed města vytvořit džungli. V parku potkávám varany, všelijaké druhy ptáků, zvuků a hlavně stromy, keře a květiny mezi kterými bych se dokázal procházet celý týden.
                         <br><br>
 <!-- Galerie -->
-    <div id="gallery" class="splide">
+    <div class="gallery splide">
         <div class="splide__track">
             <ul class="splide__list">
 
@@ -362,7 +333,7 @@
                         Vcházím do první a křičím, „Ayutthaya, Ayutthaya?!“ paní zvedá ruku a ukazuje prstem doprava. Vycházím ven a v další budově opakuji stejný postup. Za chviličku už držím lístky a po cestě si užívám Indický Bollywood ve vytuněném autobusu.
                         <br><br>
 <!-- Galerie -->
-    <div id="gallery" class="splide">
+    <div class="gallery splide">
         <div class="splide__track">
             <ul class="splide__list">
 
@@ -386,7 +357,7 @@
                         Vystupuji v historickém městě Ayutthaya a zažívám extrémy Thajského počasí, sundavám mikinu a vystupuji z ledového autobusu na 40°C žahnoucí slunce. Poté co projdu památky a usadím se k jídlu, přichází liány vody, které minimálně dvě hodiny neustávají.
                     </p>
 <!-- Galerie -->
-    <div id="gallery" class="splide">
+    <div class="gallery splide">
         <div class="splide__track">
             <ul class="splide__list">
 
@@ -410,7 +381,7 @@
                         <br><br>
                     </p>
 <!-- Galerie -->
-    <div id="gallery" class="splide">
+    <div class="gallery splide">
         <div class="splide__track">
             <ul class="splide__list">
 
