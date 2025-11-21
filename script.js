@@ -71,7 +71,7 @@ window.addEventListener("load", () => {
 document.querySelectorAll('.gallery').forEach(gal => {
     new Splide(gal, {
         type: 'loop',
-        perPage: 2,
+        perPage: 3,
         gap: '10px',
     }).mount();
 });
