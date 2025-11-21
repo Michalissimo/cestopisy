@@ -68,10 +68,12 @@ window.addEventListener("load", () => {
 });
 
 // Splide galerie
-document.querySelectorAll('.gallery').forEach(gal => {
-    new Splide(gal, {
-        type: 'loop',
-        perPage: 3,
-        gap: '10px',
-    }).mount();
+document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.gallery').forEach(gal => {
+        new Splide(gal, {
+            type: 'loop',
+            perPage: 1,
+            gap: '10px',
+        }).mount();
+    });
 });
