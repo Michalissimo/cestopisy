@@ -541,6 +541,14 @@ p {
 }
 
 /* ============== Galerie Splide ============== */
+
+/* Pro telefon */
+.splide__slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 /* Vzhled obrázků */
 .splide__slide img {
     width: 100%;
