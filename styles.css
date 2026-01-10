@@ -200,19 +200,8 @@ p {
   }
 
   .gallery img {
-    height: 120px; /* menší výška na mobilu */
+    height: 400px; /* menší výška na mobilu */
   }
-}
-
-/* Upravit pro telefon */
-#varan {
-    max-width: 450px;
-    margin: 0 auto 4rem auto;
-      width: 100%;
-  aspect-ratio: 3 / 2;   /* nebo 4 / 3, 1 / 1 */
-  object-fit: cover;
-  border-radius: 5px;
-    
 }
 
 #sekce3 {
@@ -224,10 +213,3 @@ p {
   padding: 5px; /* trochu odsazení od okrajů */
 }
 
-#moto {
-  width: 100%;
-  max-height: 400px;
-  aspect-ratio: 1 / 1;   /* nebo 4 / 3, 1 / 1 */
-  object-fit: cover;
-  border-radius: 5px;
-}
