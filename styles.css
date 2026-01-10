@@ -213,3 +213,24 @@ p {
   padding: 5px; /* trochu odsazení od okrajů */
 }
 
+.footer {
+    padding-bottom: 3rem;
+    text-align: center;
+    background-color: #44403c;
+}
+
+.footer-line {
+    width: 0.5px;
+    height: 3rem;
+    background-color: #44403c;
+    margin: 0 auto 1.5rem;
+}
+
+.footer-text {
+    color: #ffffff;
+    letter-spacing: 0.15em;
+}
+
+#current-time {
+    color:#ffffff
+}
