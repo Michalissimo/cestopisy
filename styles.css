@@ -189,7 +189,7 @@ p {
 }
 
 .gallery img:hover {
-  transform: scale(1.05); /* jemný hover efekt */
+  transform: scale(1.08); /* jemný hover efekt */
 }
 
 /* Responzivní úpravy pro malé obrazovky */
@@ -200,7 +200,7 @@ p {
   }
 
   .gallery img {
-    height: 400px; /* menší výška na mobilu */
+    height: 380px; /* menší výška na mobilu */
   }
 }
 
